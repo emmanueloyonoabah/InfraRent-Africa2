@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets Streamlit : ne JAMAIS les publier sur GitHub
+.streamlit/secrets.toml
+
+# Données opérationnelles générées par l'application
+data/*.csv
+data/*.tmp
+
+# Divers
+.DS_Store
+Thumbs.db
